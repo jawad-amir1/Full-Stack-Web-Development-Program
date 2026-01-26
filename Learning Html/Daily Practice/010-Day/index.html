@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sturacture Table</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Music Player</th>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Audio</th>
+                <th>Image</th>
+            </tr>
+                <style>
+                    table{
+                        width: 100%;
+                    }
+                    td,th {
+                        text-align: center;
+                    }
+                    thead{
+                        background-color: brown;
+                    }
+                    tbody{
+                        background-color: aquamarine;
+                    }
+                    tfoot{
+                        background-color: black; color: white;
+                    }
+                </style>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Amir Liam - Dark</td>
+                <td>
+                    <audio src="asste/audio/Amir Liam - Dark (320).mp3" controls></audio>
+                </td>
+                    <td>
+                    <img src="asste/Images/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" width="100" />
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Amirsa - Mimoone Jat</td>
+                <td>
+                    <audio src="asste/audio/Amirsa - Mimoone Jat (320).mp3" controls></audio>
+                </td>
+                <td>
+                    <img src="asste/Images/pngtree-a-hand-writing-code-on-digital-interface-with-glowing-connections-symbolizing-image_17075797.jpg" width="100" />
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>asste/audio/2Yar - Jigar Tala</td>
+                <td>
+                    <audio src="asste/audio/2Yar - Jigar Tala (320).mp3" controls></audio>
+                </td>
+                <td>
+                    <img src="asste/Images/pngtree-abstract-programming-workflow-on-a-screen-while-developing-real-python-code-photo-image_28458240.jpg" width="100" />
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>3</td>
+            <td>Amir Liam - Dark Amirsa - Mimoone Jat Amirsa - Mimoone Jat</td>
+            <td>....</td>
+            <td>....</td>
+        </tfoot>
+    </table>
+</body>
+</html>
